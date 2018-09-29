@@ -12,6 +12,10 @@
 		23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
 		23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
 		23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
+		23ED36B4215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
+		23ED36B5215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
+		23ED36B6215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
+		23ED36B7215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,7 @@
 		23ED36A0215F42C200E5AAF3 /* Glogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ED36A3215F42C200E5AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryKey.swift; sourceTree = "<group>"; };
+		23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 			children = (
 				23ED367B215F41F400E5AAF3 /* Glogger.h */,
 				23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */,
+				23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B4215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B5215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B6215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B7215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
