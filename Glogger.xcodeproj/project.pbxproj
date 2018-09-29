@@ -24,6 +24,10 @@
 		23ED36C9215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
 		23ED36CA215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
 		23ED36CB215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
+		23ED36D2215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
+		23ED36D3215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
+		23ED36D4215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
+		23ED36D5215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,7 @@
 		23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevel.swift; sourceTree = "<group>"; };
 		23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 		23ED36C7215F48FD00E5AAF3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		23ED36D1215F4A2700E5AAF3 /* Glogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,7 @@
 				23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */,
 				23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */,
 				23ED36C7215F48FD00E5AAF3 /* Logger.swift */,
+				23ED36D1215F4A2700E5AAF3 /* Glogger.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				23ED36B4215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36C3215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
+				23ED36D2215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 				23ED36C8215F48FD00E5AAF3 /* Logger.swift in Sources */,
 			);
@@ -352,6 +359,7 @@
 			files = (
 				23ED36B5215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36C4215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
+				23ED36D3215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 				23ED36C9215F48FD00E5AAF3 /* Logger.swift in Sources */,
 			);
@@ -363,6 +371,7 @@
 			files = (
 				23ED36B6215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36C5215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
+				23ED36D4215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 				23ED36CA215F48FD00E5AAF3 /* Logger.swift in Sources */,
 			);
@@ -374,6 +383,7 @@
 			files = (
 				23ED36B7215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
 				23ED36C6215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
+				23ED36D5215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 				23ED36CB215F48FD00E5AAF3 /* Logger.swift in Sources */,
 			);
