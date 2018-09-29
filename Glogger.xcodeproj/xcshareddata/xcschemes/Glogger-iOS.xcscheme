@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23ED3678215F41F400E5AAF3"
-               BuildableName = "Glogger_iOS.framework"
+               BuildableName = "Glogger.framework"
                BlueprintName = "Glogger-iOS"
                ReferencedContainer = "container:Glogger.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23ED3678215F41F400E5AAF3"
-            BuildableName = "Glogger_iOS.framework"
+            BuildableName = "Glogger.framework"
             BlueprintName = "Glogger-iOS"
             ReferencedContainer = "container:Glogger.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23ED3678215F41F400E5AAF3"
-            BuildableName = "Glogger_iOS.framework"
+            BuildableName = "Glogger.framework"
             BlueprintName = "Glogger-iOS"
             ReferencedContainer = "container:Glogger.xcodeproj">
          </BuildableReference>

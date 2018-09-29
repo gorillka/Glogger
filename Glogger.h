@@ -1,4 +1,8 @@
-#import <UIKit/UIKit.h>
+#if TARGET_OS_OSX
+    #import <Cocoa/Cocoa.h>
+#else
+    #import <UIKit/UIKit.h>
+#endif
 
 //! Project version number for Glogger_iOS.
 FOUNDATION_EXPORT double GloggerVersionNumber;

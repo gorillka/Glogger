@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '3.0'
   
   s.source       = { :git => 'https://github.com/gorillka/Glogger.git', :tag => s.version }
-  s.source_files  = 'Glogger', 'Glogger/Sources/**/*.swift'
+  s.source_files  = '*.h', '**/*.swift'
 
   s.framework  = 'Foundation'
 

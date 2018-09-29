@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23ED369F215F42C200E5AAF3"
-               BuildableName = "Glogger_watchOS.framework"
+               BuildableName = "Glogger.framework"
                BlueprintName = "Glogger-watchOS"
                ReferencedContainer = "container:Glogger.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23ED369F215F42C200E5AAF3"
-            BuildableName = "Glogger_watchOS.framework"
+            BuildableName = "Glogger.framework"
             BlueprintName = "Glogger-watchOS"
             ReferencedContainer = "container:Glogger.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23ED369F215F42C200E5AAF3"
-            BuildableName = "Glogger_watchOS.framework"
+            BuildableName = "Glogger.framework"
             BlueprintName = "Glogger-watchOS"
             ReferencedContainer = "container:Glogger.xcodeproj">
          </BuildableReference>
