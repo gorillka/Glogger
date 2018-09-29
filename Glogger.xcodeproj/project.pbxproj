@@ -16,6 +16,10 @@
 		23ED36B5215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
 		23ED36B6215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
 		23ED36B7215F47B000E5AAF3 /* AccessLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */; };
+		23ED36C3215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
+		23ED36C4215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
+		23ED36C5215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
+		23ED36C6215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,7 @@
 		23ED36A3215F42C200E5AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryKey.swift; sourceTree = "<group>"; };
 		23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevel.swift; sourceTree = "<group>"; };
+		23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 				23ED367B215F41F400E5AAF3 /* Glogger.h */,
 				23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */,
 				23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */,
+				23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -328,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ED36B4215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
+				23ED36C3215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ED36B5215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
+				23ED36C4215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ED36B6215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
+				23ED36C5215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ED36B7215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
+				23ED36C6215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
