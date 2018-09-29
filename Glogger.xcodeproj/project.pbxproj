@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		23ED367D215F41F400E5AAF3 /* Glogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 23ED367B215F41F400E5AAF3 /* Glogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
+		23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
+		23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
+		23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,7 @@
 		23ED3696215F429700E5AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ED36A0215F42C200E5AAF3 /* Glogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ED36A3215F42C200E5AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				23ED367B215F41F400E5AAF3 /* Glogger.h */,
+				23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -243,15 +249,19 @@
 				TargetAttributes = {
 					23ED3678215F41F400E5AAF3 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					23ED3685215F423B00E5AAF3 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					23ED3692215F429700E5AAF3 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					23ED369F215F42C200E5AAF3 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -311,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +479,7 @@
 		23ED367F215F41F400E5AAF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -483,6 +498,7 @@
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -491,6 +507,7 @@
 		23ED3680215F41F400E5AAF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -517,6 +534,7 @@
 		23ED368C215F423B00E5AAF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -539,6 +557,7 @@
 				PRODUCT_NAME = Glogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -546,6 +565,7 @@
 		23ED368D215F423B00E5AAF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -575,6 +595,7 @@
 		23ED3699215F429700E5AAF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -594,6 +615,7 @@
 				PRODUCT_NAME = Glogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
@@ -603,6 +625,7 @@
 		23ED369A215F429700E5AAF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -632,6 +655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -651,6 +675,7 @@
 				PRODUCT_NAME = Glogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
@@ -661,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
