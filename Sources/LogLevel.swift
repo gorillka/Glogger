@@ -13,4 +13,8 @@ public enum LogLevel: Int {
         case .error: return .fault
         }
     }
+
+    internal var description: String {
+        return "\(self)"
+    }
 }
