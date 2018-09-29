@@ -82,6 +82,7 @@
 		23ED365F215F41B500E5AAF3 = {
 			isa = PBXGroup;
 			children = (
+				23ED367B215F41F400E5AAF3 /* Glogger.h */,
 				23ED36A9215F43E600E5AAF3 /* Assets */,
 				23ED36A8215F43C900E5AAF3 /* Sources */,
 				23ED366A215F41B500E5AAF3 /* Products */,
@@ -102,7 +103,6 @@
 		23ED36A8215F43C900E5AAF3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				23ED367B215F41F400E5AAF3 /* Glogger.h */,
 				23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */,
 				23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */,
 				23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */,
