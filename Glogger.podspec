@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Glogger'
-  s.version      = '0.2.0'
+  s.version      = '0.2.1'
   s.summary      = 'Simple Logger.'
 
   s.description  = <<-DESC
