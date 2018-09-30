@@ -20,14 +20,15 @@
 		23ED36C4215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
 		23ED36C5215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
 		23ED36C6215F48AE00E5AAF3 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */; };
-		23ED36C8215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
-		23ED36C9215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
-		23ED36CA215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
-		23ED36CB215F48FD00E5AAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Logger.swift */; };
+		23ED36C8215F48FD00E5AAF3 /* Loggerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */; };
+		23ED36C9215F48FD00E5AAF3 /* Loggerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */; };
+		23ED36CA215F48FD00E5AAF3 /* Loggerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */; };
+		23ED36CB215F48FD00E5AAF3 /* Loggerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */; };
 		23ED36D2215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
 		23ED36D3215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
 		23ED36D4215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
 		23ED36D5215F4A2700E5AAF3 /* Glogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED36D1215F4A2700E5AAF3 /* Glogger.swift */; };
+		AC84EBF721611E5600773FD2 /* Glogger+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84EBF621611E5600773FD2 /* Glogger+Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +44,9 @@
 		23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryKey.swift; sourceTree = "<group>"; };
 		23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevel.swift; sourceTree = "<group>"; };
 		23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
-		23ED36C7215F48FD00E5AAF3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggerable.swift; sourceTree = "<group>"; };
 		23ED36D1215F4A2700E5AAF3 /* Glogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glogger.swift; sourceTree = "<group>"; };
+		AC84EBF621611E5600773FD2 /* Glogger+Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Glogger+Logging.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,9 @@
 				23ED36AE215F46C600E5AAF3 /* CategoryKey.swift */,
 				23ED36B3215F47B000E5AAF3 /* AccessLevel.swift */,
 				23ED36C2215F48AE00E5AAF3 /* LogLevel.swift */,
-				23ED36C7215F48FD00E5AAF3 /* Logger.swift */,
+				23ED36C7215F48FD00E5AAF3 /* Loggerable.swift */,
 				23ED36D1215F4A2700E5AAF3 /* Glogger.swift */,
+				AC84EBF621611E5600773FD2 /* Glogger+Logging.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED367E215F41F400E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-iOS" */;
 			buildPhases = (
+				AC84EBF821611F5500773FD2 /* swiftformat */,
 				23ED3674215F41F400E5AAF3 /* Headers */,
 				23ED3675215F41F400E5AAF3 /* Sources */,
 				23ED3676215F41F400E5AAF3 /* Frameworks */,
@@ -212,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED368B215F423B00E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-macOS" */;
 			buildPhases = (
+				AC84EBF921611FD200773FD2 /* swiftformat */,
 				23ED3681215F423B00E5AAF3 /* Headers */,
 				23ED3682215F423B00E5AAF3 /* Sources */,
 				23ED3683215F423B00E5AAF3 /* Frameworks */,
@@ -230,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED3698215F429700E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-tvOS" */;
 			buildPhases = (
+				AC84EBFA21611FE400773FD2 /* swiftformat */,
 				23ED368E215F429700E5AAF3 /* Headers */,
 				23ED368F215F429700E5AAF3 /* Sources */,
 				23ED3690215F429700E5AAF3 /* Frameworks */,
@@ -248,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED36A5215F42C200E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-watchOS" */;
 			buildPhases = (
+				AC84EBFB21611FF300773FD2 /* swiftformat */,
 				23ED369B215F42C200E5AAF3 /* Headers */,
 				23ED369C215F42C200E5AAF3 /* Sources */,
 				23ED369D215F42C200E5AAF3 /* Frameworks */,
@@ -340,16 +347,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC84EBF821611F5500773FD2 /* swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftformat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftformat.sh\n";
+		};
+		AC84EBF921611FD200773FD2 /* swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftformat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftformat.sh\n";
+		};
+		AC84EBFA21611FE400773FD2 /* swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftformat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftformat.sh\n";
+		};
+		AC84EBFB21611FF300773FD2 /* swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftformat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftformat.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23ED3675215F41F400E5AAF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				23ED36B4215F47B000E5AAF3 /* AccessLevel.swift in Sources */,
+				AC84EBF721611E5600773FD2 /* Glogger+Logging.swift in Sources */,
 				23ED36C3215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36D2215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36AF215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
-				23ED36C8215F48FD00E5AAF3 /* Logger.swift in Sources */,
+				23ED36C8215F48FD00E5AAF3 /* Loggerable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +444,7 @@
 				23ED36C4215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36D3215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B0215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
-				23ED36C9215F48FD00E5AAF3 /* Logger.swift in Sources */,
+				23ED36C9215F48FD00E5AAF3 /* Loggerable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +456,7 @@
 				23ED36C5215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36D4215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B1215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
-				23ED36CA215F48FD00E5AAF3 /* Logger.swift in Sources */,
+				23ED36CA215F48FD00E5AAF3 /* Loggerable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +468,7 @@
 				23ED36C6215F48AE00E5AAF3 /* LogLevel.swift in Sources */,
 				23ED36D5215F4A2700E5AAF3 /* Glogger.swift in Sources */,
 				23ED36B2215F46C600E5AAF3 /* CategoryKey.swift in Sources */,
-				23ED36CB215F48FD00E5AAF3 /* Logger.swift in Sources */,
+				23ED36CB215F48FD00E5AAF3 /* Loggerable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

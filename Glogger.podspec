@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Glogger'
-  s.version      = '0.1.1'
+  s.version      = '0.2.0'
   s.summary      = 'Simple Logger.'
 
   s.description  = <<-DESC
@@ -25,8 +25,5 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => 'https://github.com/gorillka/Glogger.git', :tag => s.version.to_s }
   s.source_files  = '*.h', '**/*.swift'
-
-  s.swift_version = '4.2'
   
-
 end
