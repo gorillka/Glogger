@@ -25,6 +25,21 @@ extension LogLevel {
     }
 }
 
-extension LogLevel: CustomStringConvertible {
-    public var description: String { return "\(self)" }
+extension LogLevel {
+    public var description: String {
+        var result = ""
+        switch self {
+        case .verbose:
+            result = "verbose"
+        case .info:
+            result = "info"
+        case .debug:
+            result = "debug"
+        case .warning:
+            result = "warning"
+        case .error:
+            result = "error"
+        }
+        return result
+    }
 }
