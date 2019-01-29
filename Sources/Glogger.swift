@@ -12,8 +12,11 @@ public struct Glogger<T: CategoryKey> {
     private let loggers: [Loggerable]
     private var disableSymbols: Set<String> = []
 
-    public init(keyedBy type: Key.Type, loggers: [Loggerable] = []) {
+    public let logLevel: LogLevel
+
+    public init(keyedBy type: Key.Type, loggers: [Loggerable] = [], logLevel: LogLevel = .verbose) {
         self.loggers = loggers
+        self.logLevel = logLevel
     }
 
     public mutating func ignore(classes: [Any]) {
@@ -31,6 +34,7 @@ internal extension Glogger {
         let className = (file as NSString).deletingPathExtension
 
         guard logAllowed(category, className: className) else { return }
+        guard level.rawValue >= logLevel.rawValue else { return }
 
         let osLog = self.osLog(category)
         let line = "\(lineNumber)"
