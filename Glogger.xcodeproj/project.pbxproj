@@ -197,7 +197,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED367E215F41F400E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-iOS" */;
 			buildPhases = (
-				AC84EBF821611F5500773FD2 /* swiftformat */,
 				23ED3674215F41F400E5AAF3 /* Headers */,
 				23ED3675215F41F400E5AAF3 /* Sources */,
 				23ED3676215F41F400E5AAF3 /* Frameworks */,
@@ -348,24 +347,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AC84EBF821611F5500773FD2 /* swiftformat */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = swiftformat;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sh swiftformat.sh\n";
-		};
 		AC84EBF921611FD200773FD2 /* swiftformat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
