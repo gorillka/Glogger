@@ -3,11 +3,7 @@
 //  Copyright © 2018 Gorilka Team. All rights reserved.
 //
 
-#if TARGET_OS_OSX
-#import <Cocoa/Cocoa.h>
-#else
-#import <UIKit/UIKit.h>
-#endif
+#import <Foundation/Foundation.h>
 
 //! Project version number for Glogger_iOS.
 FOUNDATION_EXPORT double GloggerVersionNumber;

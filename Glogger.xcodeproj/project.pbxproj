@@ -197,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED367E215F41F400E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-iOS" */;
 			buildPhases = (
+				23D2F8A922A52B2D00CA4B49 /* SwiftFormat */,
 				23ED3674215F41F400E5AAF3 /* Headers */,
 				23ED3675215F41F400E5AAF3 /* Sources */,
 				23ED3676215F41F400E5AAF3 /* Frameworks */,
@@ -215,7 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED368B215F423B00E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-macOS" */;
 			buildPhases = (
-				AC84EBF921611FD200773FD2 /* swiftformat */,
+				AC84EBF921611FD200773FD2 /* SwiftFormat */,
 				23ED3681215F423B00E5AAF3 /* Headers */,
 				23ED3682215F423B00E5AAF3 /* Sources */,
 				23ED3683215F423B00E5AAF3 /* Frameworks */,
@@ -234,7 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED3698215F429700E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-tvOS" */;
 			buildPhases = (
-				AC84EBFA21611FE400773FD2 /* swiftformat */,
+				AC84EBFA21611FE400773FD2 /* SwiftFormat */,
 				23ED368E215F429700E5AAF3 /* Headers */,
 				23ED368F215F429700E5AAF3 /* Sources */,
 				23ED3690215F429700E5AAF3 /* Frameworks */,
@@ -253,7 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23ED36A5215F42C200E5AAF3 /* Build configuration list for PBXNativeTarget "Glogger-watchOS" */;
 			buildPhases = (
-				AC84EBFB21611FF300773FD2 /* swiftformat */,
+				AC84EBFB21611FF300773FD2 /* SwiftFormat */,
 				23ED369B215F42C200E5AAF3 /* Headers */,
 				23ED369C215F42C200E5AAF3 /* Sources */,
 				23ED369D215F42C200E5AAF3 /* Frameworks */,
@@ -347,7 +348,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AC84EBF921611FD200773FD2 /* swiftformat */ = {
+		23D2F8A922A52B2D00CA4B49 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +357,7 @@
 			);
 			inputPaths = (
 			);
-			name = swiftformat;
+			name = SwiftFormat;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -365,7 +366,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh swiftformat.sh\n";
 		};
-		AC84EBFA21611FE400773FD2 /* swiftformat */ = {
+		AC84EBF921611FD200773FD2 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +375,7 @@
 			);
 			inputPaths = (
 			);
-			name = swiftformat;
+			name = SwiftFormat;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -383,7 +384,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh swiftformat.sh\n";
 		};
-		AC84EBFB21611FF300773FD2 /* swiftformat */ = {
+		AC84EBFA21611FE400773FD2 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,7 +393,25 @@
 			);
 			inputPaths = (
 			);
-			name = swiftformat;
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftformat.sh\n";
+		};
+		AC84EBFB21611FF300773FD2 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -584,8 +603,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -598,7 +617,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.iOS.Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.iOS.Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -613,8 +632,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -627,7 +646,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.iOS.Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.iOS.Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -641,8 +660,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -658,7 +677,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.macOS.Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.macOS.Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -673,8 +692,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -690,7 +709,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.macOS.Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.macOS.Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -704,8 +723,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -718,7 +737,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.tvOS..Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.tvOS..Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -735,8 +754,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -749,7 +768,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.tvOS..Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.tvOS..Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -766,8 +785,8 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -780,7 +799,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.watchOS..Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.watchOS..Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -798,8 +817,8 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -812,7 +831,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorilka.watchOS..Glogger;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.gorilka.watchOS..Glogger;
 				PRODUCT_MODULE_NAME = Glogger;
 				PRODUCT_NAME = Glogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
